@@ -1,0 +1,21 @@
+05-16 03:13:41.541 30541-30541/eu.telecomnancy.pidr_2016_velostan E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                                    Process: eu.telecomnancy.pidr_2016_velostan, PID: 30541
+                                                                                    java.lang.RuntimeException: Unable to start receiver eu.telecomnancy.pidr_2016_velostan.GPSUpdateReceiver: java.lang.ClassCastException: android.app.ReceiverRestrictedContext cannot be cast to eu.telecomnancy.pidr_2016_velostan.MainActivity
+                                                                                        at android.app.ActivityThread.handleReceiver(ActivityThread.java:3641)
+                                                                                        at android.app.ActivityThread.access$2000(ActivityThread.java:221)
+                                                                                        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1876)
+                                                                                        at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                                                        at android.os.Looper.loop(Looper.java:158)
+                                                                                        at android.app.ActivityThread.main(ActivityThread.java:7224)
+                                                                                        at java.lang.reflect.Method.invoke(Native Method)
+                                                                                        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+                                                                                        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+                                                                                     Caused by: java.lang.ClassCastException: android.app.ReceiverRestrictedContext cannot be cast to eu.telecomnancy.pidr_2016_velostan.MainActivity
+                                                                                        at eu.telecomnancy.pidr_2016_velostan.GPSUpdateReceiver.onReceive(GPSUpdateReceiver.java:21)
+                                                                                        at android.app.ActivityThread.handleReceiver(ActivityThread.java:3634)
+                                                                                        at android.app.ActivityThread.access$2000(ActivityThread.java:221) 
+                                                                                        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1876) 
+                                                                                        at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                                                        at android.os.Looper.loop(Looper.java:158) 
+                                                                                        at android.app.ActivityThread.main(ActivityThread.java:7224) 
+                                                                                        at java.lang.reflect.Method.invoke(Native Method)
